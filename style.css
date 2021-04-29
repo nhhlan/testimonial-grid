@@ -21,7 +21,7 @@ main
 }
 .grid-container
 {
-    width: max(23em, 80vw);
+    width: max(23em, 90vw);
     margin: 0 auto;
     padding: 5em;
 }
