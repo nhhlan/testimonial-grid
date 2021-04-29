@@ -158,6 +158,10 @@ p + p
 }
 @media screen and (min-width: 65em)
 {
+    main
+    {
+        height: 100vh;
+    }
     .grid-container
     {
         grid-template-areas: 
