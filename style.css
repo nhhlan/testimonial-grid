@@ -24,7 +24,7 @@ main
 {
     width: max(23em, 80vw);
     margin: 0 auto;
-    padding: 2em;
+    padding: 5em;
 }
 p + p 
 {
@@ -164,5 +164,13 @@ p + p
             "one one two five"
             "three four four five"
         ;
+        transition: all 0.25s ease-in;
+    }
+    .one > img
+    {
+        position: absolute;
+        top: 0;
+        right: 4rem;
+        border: none;
     }
 }
